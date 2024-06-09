@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" type="image/svg+xml" href="./Images/pizza-logo.svg">
+  <link rel="stylesheet" href="style.css">
+  <title>Elyas Barakzai Final Project</title>
+</head>
+
+<body>
+  <nav>
+    <h1>LA CARAVANA</h1>
+    <ul class="sidebar" id="sidebar">
+      <li onclick=hideSidebar()><a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" width="18"
+            viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path fill="#ffffff"
+              d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+          </svg></a></li>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">ABOUT US</a></li>
+      <li><a href="#">MENU</a></li>
+      <li><a href="#">CONTACT</a></li>
+    </ul>
+    <ul>
+      <li><a href="#"></a></li>
+      <li class="hideOnMobile"><a href="#home">HOME</a></li>
+      <li class="hideOnMobile"><a href="#about-us">ABOUT US</a></li>
+      <li class="hideOnMobile"><a href="#menu">MENU</a></li>
+      <li class="hideOnMobile"><a href="#contact">CONTACT</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"
+            viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path fill="#ffffff"
+              d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM64 256c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+          </svg></a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="header-section" id="home">
+      <h1>LA CARAVANA</h1>
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Phasellus ac placerat dui. Vestibulum ut felis et lorem <br>
+        porta congue vitae nec turpis. Aliquam quis leo at nunc <br>
+        tempor faucibus et ac massa.</p>
+      <img src="./Images/pizza-header.png" alt="pizza-pic" style="width:100%;">
+    </div>
+
+    <div class="about" id="about-us">
+      <div class="about-pt">
+        <h1>ABOUT US</h1>
+        <hr>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+          the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+          of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+          but also the leap into electronic typesetting, remaining essentially unchanged.
+          dolor sit amet, consectetur adipisicing elit.</p>
+        <button data-modal-target="modal1" class="btnt btn1">READ MORE</button>
+
+        <div class="modal" id="modal1">
+          <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h2>READ MORE ABOUT OUR RESTAURANT</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, corporis nam? Repellat accusamus
+              blanditiis autem nobis sed minus aperiam ex veniam deserunt eum magnam porro eligendi laudantium, dolores
+              exercitationem quibusdam odit pariatur minima asperiores deleniti dolor quo eveniet reiciendis commodi!
+              Delectus accusamus voluptatum harum sit doloribus quisquam perferendis voluptas dolores quidem sunt.
+              Suscipit alias expedita fugiat, rerum voluptatem eveniet porro aliquid quas nobis eum quibusdam asperiores
+              veniam molestiae magni! Repudiandae, laudantium. Nulla reiciendis accusamus quia aliquam veniam, dicta
+              provident numquam tenetur fugit illo? Deleniti dolore sequi ratione voluptate nobis quae. Dolor inventore
+              asperiores possimus quam, autem laborum, sit in sapiente sequi vero eius magni ea sunt quis ab aperiam,
+              repudiandae sint. Eveniet cumque officiis mollitia possimus ea natus reiciendis reprehenderit veniam
+              dolore. Quos qui minima quam veritatis, sunt repellendus reprehenderit, et expedita consequatur eum
+              ratione suscipit distinctio voluptatem rerum repellat, possimus ut aut? Consequuntur debitis voluptates
+              nulla itaque nisi unde iste aut dignissimos, quam numquam aperiam voluptas, modi impedit quasi odio
+              aliquam corrupti officia, cupiditate repudiandae saepe ex voluptatem. Sunt tempore provident adipisci
+              dicta sint reprehenderit dolor nobis. Magnam atque molestiae, praesentium consequuntur perferendis,
+              laudantium, accusamus deserunt ex eveniet voluptatum provident ratione molestias a repellat. Aut,
+              provident praesentium. Ducimus, maxime!</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="about-img">
+        <img src="./Images/restaurant.png" alt="restaurant" style="width:100%;">
+      </div>
+    </div>
+
+    <div class="find-me-part">
+      <div class="find-part-heading">
+        <h1>FIND US</h1>
+        <hr>
+      </div>
+      <div class="flex-for-find-section">
+        <div class="map-img">
+          <img src="./Images/map.png" alt="map" style="width:100%;">
+        </div>
+        <div class="find-text">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Fuga, tempora ea.
+            Excepturi sit sequi quas, ullam expedita nesciunt nostrum eligendi voluptas itaque
+            laudantium dolorem natus iste aliquam ut temporibus eum repellendus.<br>
+            <br>
+            ATTENDANCE
+            Monday to Sunday 12:00pm - 8:00pm
+            <br>
+            <br>
+            DELIVERY
+            Monday - Sunday 12:00pm - 8:00pm
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="our-menu-part" id="menu">
+      <div class="menu-frist-wapper">
+        <h1>OUR MENU</h1>
+        <hr>
+      </div>
+      <div class="menu-text">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry, Lorem Ipsum has been
+          the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+          of type and scrambled it to make a type specimen book, It has survived not only five centuries,
+          but also the leap into electronic typesetting, remaining essentially unchanged, Lorem ipsum
+          dolor sit amet consectetur adipisicing elit, Ipsa laboriosam assumenda fuga perferendis
+          veritatis libero officia eveniet asperiores molestiae! Commodi.</p>
+      </div>
+      <div class="pizza-make-img">
+        <img src="./Images/pizza-maker.png" alt="maker-image" style="width:100%;">
+        <img src="./Images/dough-pizza.png" alt="dough-image" style="width:100%;">
+      </div>
+      <button id="openMenuBtn" class="btn btn2">MENU</button>
+
+      <!-- Modal -->
+      <div id="menuModal" class="modal-menu">
+        <div class="modal-content-menu">
+          <span class="close-btn">&times;</span> <br>
+          <h1>OUR MENU</h1>
+          <hr>
+          <div class="navegation-par">
+            <ul>
+              <li>ALL</li>
+              <li>STARTERS</li>
+              <li>MAIN</li>
+              <li>DRINKS</li>
+              <li>PROMOTION</li>
+            </ul>
+          </div>
+          <div class="felxable-box-dev">
+            <div class="fix-one">
+              <div class="menu-section-frist">
+                <img src="./Images/plate.png" alt="plate" width="150px">
+                <div class="del">
+                  <div class="ffa">
+                    <h3>LOREM IPSUM</h3>
+                    <h4>$25</h4>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.
+                    Phasellus ac placerat dui.</p>
+                </div>
+              </div>
+              <div class="menu-section-frist">
+                <img src="./Images/pancake.png" alt="pancake" width="150px">
+                <div class="del">
+                  <div class="ffa">
+                    <h3>LOREM IPSUM</h3>
+                    <h4>$25</h4>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.
+                    Phasellus ac placerat dui.</p>
+                </div>
+              </div>
+              <div class="menu-section-frist">
+                <img src="./Images/pizza.png" alt="pizza" width="150px">
+                <div class="del">
+                  <div class="ffa">
+                    <h3>LOREM IPSUM</h3>
+                    <h4>$25</h4>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.
+                    Phasellus ac placerat dui.</p>
+                </div>
+              </div>
+              <div class="menu-section-frist">
+                <img src="./Images/plate.png" alt="plate" width="150px">
+                <div class="del">
+                  <div class="ffa">
+                    <h3>LOREM IPSUM</h3>
+                    <h4>$25</h4>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.
+                    Phasellus ac placerat dui.</p>
+                </div>
+              </div>
+              <div class="menu-section-frist">
+                <img src="./Images/pancake.png" alt="pancake" width="150px">
+                <div class="del">
+                  <div class="ffa">
+                    <h3>LOREM IPSUM</h3>
+                    <h4>$25</h4>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.
+                    Phasellus ac placerat dui.</p>
+                </div>
+              </div>
+              <div class="menu-section-frist">
+                <img src="./Images/pizza.png" alt="pizza" width="150px">
+                <div class="del">
+                  <div class="ffa">
+                    <h3>LOREM IPSUM</h3>
+                    <h4>$25</h4>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.
+                    Phasellus ac placerat dui.</p>
+                </div>
+              </div>
+            </div>
+            <div class="fix-two">
+              <div class="menu-section-frist">
+                <img src="./Images/plate.png" alt="plate" width="150px">
+                <div class="del">
+                  <div class="ffa">
+                    <h3>LOREM IPSUM</h3>
+                    <h4>$25</h4>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.
+                    Phasellus ac placerat dui.</p>
+                </div>
+              </div>
+              <div class="menu-section-frist">
+                <img src="./Images/pancake.png" alt="pancake" width="150px">
+                <div class="del">
+                  <div class="ffa">
+                    <h3>LOREM IPSUM</h3>
+                    <h4>$25</h4>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.
+                    Phasellus ac placerat dui.</p>
+                </div>
+              </div>
+              <div class="menu-section-frist">
+                <img src="./Images/pizza.png" alt="pizza" width="150px">
+                <div class="del">
+                  <div class="ffa">
+                    <h3>LOREM IPSUM</h3>
+                    <h4>$25</h4>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.
+                    Phasellus ac placerat dui.</p>
+                </div>
+              </div>
+              <div class="menu-section-frist">
+                <img src="./Images/plate.png" alt="plate" width="150px">
+                <div class="del">
+                  <div class="ffa">
+                    <h3>LOREM IPSUM</h3>
+                    <h4>$25</h4>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.
+                    Phasellus ac placerat dui.</p>
+                </div>
+              </div>
+              <div class="menu-section-frist">
+                <img src="./Images/pancake.png" alt="pancake" width="150px">
+                <div class="del">
+                  <div class="ffa">
+                    <h3>LOREM IPSUM</h3>
+                    <h4>$25</h4>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.
+                    Phasellus ac placerat dui.</p>
+                </div>
+              </div>
+              <div class="menu-section-frist">
+                <img src="./Images/pizza.png" alt="pizza" width="150px">
+                <div class="del">
+                  <div class="ffa">
+                    <h3>LOREM IPSUM</h3>
+                    <h4>$25</h4>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.
+                    Phasellus ac placerat dui.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer id="contact">
+    <div class="img-wapper">
+      <img src="./Images/pizza-footer.png" alt="footer-pizza-image" style="width:100%;">
+    </div>
+    <div class="flexible-footer">
+      <div class="visme_d" data-title="Elyas Login Page" data-url="q6pox96q-elyas-login-page" data-domain="forms"
+        data-full-page="false" data-min-height="500px" data-form-id="68581"></div>
+      <div class="fix-for-footer-sr">
+        <div class="footer-text-wapper">
+          <h1>LA CARAVANA</h1>
+          <hr>
+        </div>
+        <div class="social-media">
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i></a>
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f fa-xl" style="color: #ffffff;"></i></a>
+          <a href="https://www.whatsapp.com"><i class="fa-brands fa-whatsapp fa-2xl" style="color: #ffffff;"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="copy-right-text-dev">
+      <h3>TODOS LOS DERECHOS RESERVADOS © LA CARAVANA 2024 | DESIGN: ELYAS BARAKZAI</h3>
+    </div>
+  </footer>
+
+  <script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
