@@ -66,4 +66,3 @@ function toggleModal(modalId) {
     modal.classList.add("modal-show");
   }
 }
-
