@@ -1655,18 +1655,19 @@ footer {
   }
 
   .about-pt h1 {
-    font-size: 20px;
+    font-size: 9px;
     width: 100%;
   }
 
   .about-pt hr,
   .menu-frist-wapper hr {
-    width: 65px;
+    width: 50px;
   }
 
   .about-pt button {
-    width: 60px;
-    height: 50px;
+    font-size: 9px;
+    width: 30px;
+    height: 30px;
     transition: 0;
   }
 
@@ -1675,11 +1676,12 @@ footer {
   }
 
   .find-part-heading h1 {
-    font-size: 20px;
+    font-size: 17px;
+    margin-right: 70px;
   }
 
   .find-part-heading hr {
-    width: 100%;
+    width: 60px;
   }
 
   .menu-frist-wapper h1 {
